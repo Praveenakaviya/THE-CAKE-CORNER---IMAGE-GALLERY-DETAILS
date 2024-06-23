@@ -1,0 +1,63 @@
+/* Reset default styles and set up gallery layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6aef3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cake-details {
+    background-color: #dabce6; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cake-details .cake-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cake-details h1 {
+    font-size: 2.5em;
+    color: #ad1457; /* Dark pink color */
+    margin-bottom: 20px;
+}
+
+.cake-details p {
+    font-size: 1.2em;
+    color: #7b20a2; /* Purple color */
+    margin: 10px 0;
+}
+.cake-details h3 {
+    font-size: 2em;
+    color: #7819a0; /* Purple color */
+    margin: 10px 0;
+}
+
+.cake-details .icon {
+    color: #d81b60; /* Pink color for icon */
+    margin-right: 5px;
+}
+
+.cake-details .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ad1457;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.cake-details .back-link:hover {
+    color: #f06292; /* Lighter pink on hover */
+}
